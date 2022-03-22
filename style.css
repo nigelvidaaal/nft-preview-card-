@@ -3,6 +3,10 @@
   padding: 0;
   align-items: center;
 }
+@font-face {
+  font-family: Outfit;
+  src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
 
 body {
   background-color: hsl(217, 54%, 11%);
@@ -10,7 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: "Outfit", sans-serif;
+  font-family: Outfit;
   height: 100%;
   width: 100%;
 }
